@@ -82,3 +82,7 @@ If you want your current system configuration to match your brewfile
 brew bundle --force cleanup
 ```
   
+# M1 한/영 키 세팅 다시 ₩~ 백틱
+
+- 맥북M1pro_한국인_개발자를 위한 키보드 세팅!_한영키딜레이_해결&백틱(backtick,grave)한영구분없이_백틱키(backtick key)타이핑되게하기 | GlobalYoung
+  -  https://youtu.be/8aTi_hIFbQQ?si=6-D0rKJ8gzFCdFTt
