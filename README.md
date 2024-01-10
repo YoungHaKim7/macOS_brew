@@ -86,3 +86,8 @@ brew bundle --force cleanup
 
 - 맥북M1pro_한국인_개발자를 위한 키보드 세팅!_한영키딜레이_해결&백틱(backtick,grave)한영구분없이_백틱키(backtick key)타이핑되게하기 | GlobalYoung
   -  https://youtu.be/8aTi_hIFbQQ?si=6-D0rKJ8gzFCdFTt
+
+- [Mac] 맥북에서 Caps Lock 으로 한/영 전환 설정/해제
+
+  -  http://heyo.net/wp/67388
+  -  https://info-jella.tistory.com/entry/%EB%A7%A5%EB%A7%A5%EB%B6%81-%EC%B4%88-%EA%B0%84%EB%8B%A8-%EB%8C%80%EB%AC%B8%EC%9E%90-%EB%B3%80%ED%99%98%EB%B0%A9%EB%B2%95-%EC%98%81%EB%AC%B8%EB%B3%80%ED%99%98-%EB%B0%A9%EB%B2%95
