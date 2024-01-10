@@ -22,7 +22,6 @@ cask "firefox"
 cask "google-chrome"
 
 # mas
-mas "iMovie", id: 408981434
 mas "Xcode", id: 497799835
 
 # brew "gnupg"
