@@ -43,7 +43,7 @@ Looks for ~/Brewfile and installs its contents
 Install a specific brewfile
 
 If you want to use a brewfile from a non-standard place.
-
+- 난 이걸로 함. 파일 만들어 주고 실행하면 바로 설치 진행됨.
 ```
 brew bundle --file=~/.private/Brewfile
 ```
