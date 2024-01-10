@@ -1,6 +1,6 @@
-tap "homebrew/core"
+# tap "homebrew/core"
+# tap "homebrew/cask"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 tap "tigerstrikemedia/phalconphp"
