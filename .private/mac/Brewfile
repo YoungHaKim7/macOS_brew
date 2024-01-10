@@ -16,7 +16,6 @@ brew "node"
 
 # cask
 cask "visual-studio-code"
-cask "alacritty"
 cask "warp"
 cask "firefox"
 cask "google-chrome"
