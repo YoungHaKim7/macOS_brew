@@ -26,6 +26,13 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 Another easy way to install all of this, along with some good basic security hardening practices, is to use Mike McQuaid's Strap tool by going to https://macos-strap.herokuapp.com/. If you have a github account, it will also install basic github permissions.
 Basic Brew Bundle
 
+# 에러나는거 따로 alacritty
+
+```
+brew install --cask alacritty --no-quarantine
+```
+- https://github.com/alacritty/alacritty/issues/4673#issuecomment-771291615
+
 # The most basic command
 
 ```
