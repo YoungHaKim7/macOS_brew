@@ -3,12 +3,28 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
+tap "tigerstrikemedia/phalconphp"
+
+# brew
 brew "github-keygen"
+brew "mas"
+brew "gh"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "python"
+brew "node"
+
+# cask
+cask "visual-studio-code"
+cask "alacritty"
+
+# mas
+mas "iMovie", id: 408981434
+mas "Xcode", id: 497799835
+
 # brew "gnupg"
 # brew "pinentry-mac"
 # brew "stow"
-brew "mas"
-brew "gh"
 # cask "atom"
 # cask "carbon-copy-cloner"cask "atom"
 # cask "typora"
