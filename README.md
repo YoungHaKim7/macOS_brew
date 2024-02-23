@@ -1,3 +1,9 @@
+# m1 install rosetta2
+
+- https://www.macobserver.com/tips/how-to/install-rosetta-2-on-apple-silicon-macs-m1-m2-and-m3/
+
+<hr>
+
 # macOS_brew
 
 - brew파일 편하게 어떤 컴퓨터에서든 설치한번에 다 하기
