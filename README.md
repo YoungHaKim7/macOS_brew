@@ -98,3 +98,18 @@ brew bundle --force cleanup
 
   -  http://heyo.net/wp/67388
   -  https://info-jella.tistory.com/entry/%EB%A7%A5%EB%A7%A5%EB%B6%81-%EC%B4%88-%EA%B0%84%EB%8B%A8-%EB%8C%80%EB%AC%B8%EC%9E%90-%EB%B3%80%ED%99%98%EB%B0%A9%EB%B2%95-%EC%98%81%EB%AC%B8%EB%B3%80%ED%99%98-%EB%B0%A9%EB%B2%95
+
+<hr>
+
+# Rust개발 관련
+
+# 에러 해결 모음
+
+- 'xcrun: error: unable to find utility "metal", not a developer tool or in PATH' error when compiling 'gfx-backend-metal' #2309 
+
+- Install Xcode from the Apple App Store.
+- Install the command line tools with xcode-select --install. This might do nothing on your machine.
+- If `xcode-select --print-path prints /Library/Developer/CommandLineTools…`
+- then run `sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer`.
+
+https://github.com/gfx-rs/gfx/issues/2309
