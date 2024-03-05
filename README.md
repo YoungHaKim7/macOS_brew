@@ -1,3 +1,9 @@
+# link
+
+- [#rust개발-관련macOS fix문제해결](#rust개발-관련)
+
+<hr>
+
 # m1 install rosetta2
 
 - https://www.macobserver.com/tips/how-to/install-rosetta-2-on-apple-silicon-macs-m1-m2-and-m3/
