@@ -118,4 +118,4 @@ brew bundle --force cleanup
 - If `xcode-select --print-path prints /Library/Developer/CommandLineTools…`
 - then run `sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer`.
 
-https://github.com/gfx-rs/gfx/issues/2309
+  - 해결 출처 : https://github.com/gfx-rs/gfx/issues/2309
