@@ -4,17 +4,28 @@
 
 <hr>
 
-# m1 install rosetta2
-
-- https://www.macobserver.com/tips/how-to/install-rosetta-2-on-apple-silicon-macs-m1-m2-and-m3/
-
-<hr>
 
 # brew update & upgrade
 
 ```bash
 brew update && brew upgrade
 ```
+
+# alacritty (macOS) 
+
+- malware해결하는법
+```bash
+brew install --cask alacritty --no-quarantine
+```
+
+- https://github.com/alacritty/alacritty/issues/4673#issuecomment-771291615
+
+# m1 install rosetta2
+
+- https://www.macobserver.com/tips/how-to/install-rosetta-2-on-apple-silicon-macs-m1-m2-and-m3/
+
+<hr>
+
 
 # macOS_brew
 
