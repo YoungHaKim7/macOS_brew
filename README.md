@@ -10,6 +10,12 @@
 
 <hr>
 
+# brew update & upgrade
+
+```bash
+brew update && brew upgrade
+```
+
 # macOS_brew
 
 - brew파일 편하게 어떤 컴퓨터에서든 설치한번에 다 하기
