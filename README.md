@@ -136,3 +136,12 @@ brew bundle --force cleanup
 - then run `sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer`.
 
   - 해결 출처 : https://github.com/gfx-rs/gfx/issues/2309
+
+<hr />
+
+# macOS 화면보호기 실행 안되게 계속 깨어있게 하기(caffeine)
+- Utility that prevents the system from going to sleep
+
+```
+brew install --cask caffeine
+```
