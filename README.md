@@ -145,3 +145,9 @@ brew bundle --force cleanup
 ```
 brew install --cask caffeine
 ```
+
+# rosetta update
+
+```
+ softwareupdate --install-rosetta --agree-to-license
+```
