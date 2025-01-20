@@ -137,6 +137,29 @@ brew bundle --force cleanup
 
   - 해결 출처 : https://github.com/gfx-rs/gfx/issues/2309
 
+```bash
+==> git-lfs
+Update your git config to finish installation:
+
+  # Update global git config
+  $ git lfs install
+
+  # Update system git config
+  $ git lfs install --system
+
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
+==> uv
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
+==> pnpm
+pnpm requires a Node installation to function. You can install one with:
+  brew install node
+
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
+```
+
 <hr />
 
 # macOS 화면보호기 실행 안되게 계속 깨어있게 하기(caffeine)
