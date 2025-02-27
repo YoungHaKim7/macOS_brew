@@ -18,6 +18,13 @@ brew update-reset && brew update
 brew doctor
 ```
 
+- brew 관리 
+  - https://elsainmac.tistory.com/889
+
+```
+brew autoremove
+```
+
 # alacritty (macOS) 
 
 - malware해결하는법
