@@ -11,6 +11,13 @@
 brew update && brew upgrade
 ```
 
+# brew doctor
+
+```bash
+brew update-reset && brew update
+brew doctor
+```
+
 # alacritty (macOS) 
 
 - malware해결하는법
