@@ -174,6 +174,88 @@ fish completions have been installed to:
   /opt/homebrew/share/fish/vendor_completions.d
 ```
 
+- 250228 업데이트 하고 체크
+
+```bash
+ libpq
+libpq is keg-only, which means it was not symlinked into /opt/homebrew,
+because conflicts with postgres formula.
+
+If you need to have libpq first in your PATH, run:
+  fish_add_path /opt/homebrew/opt/libpq/bin
+
+For compilers to find libpq you may need to set:
+  set -gx LDFLAGS "-L/opt/homebrew/opt/libpq/lib"
+  set -gx CPPFLAGS "-I/opt/homebrew/opt/libpq/include"
+
+For pkg-config to find libpq you may need to set:
+  set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/libpq/lib/pkgconfig"
+==> llvm
+CLANG_CONFIG_FILE_SYSTEM_DIR: /opt/homebrew/etc/clang
+CLANG_CONFIG_FILE_USER_DIR:   ~/.config/clang
+
+LLD is now provided in a separate formula:
+  brew install lld
+
+We plan to build LLVM 20 with `LLVM_ENABLE_EH=OFF`. Please see:
+  https://github.com/orgs/Homebrew/discussions/5654
+
+Using `clang`, `clang++`, etc., requires a CLT installation at `/Library/Developer/CommandLineTools`.
+If you don't want to install the CLT, you can write appropriate configuration files pointing to your
+SDK at ~/.config/clang.
+
+To use the bundled libunwind please use the following LDFLAGS:
+  LDFLAGS="-L/opt/homebrew/opt/llvm/lib/unwind -lunwind"
+
+To use the bundled libc++ please use the following LDFLAGS:
+  LDFLAGS="-L/opt/homebrew/opt/llvm/lib/c++ -L/opt/homebrew/opt/llvm/lib/unwind -lunwind"
+
+NOTE: You probably want to use the libunwind and libc++ provided by macOS unless you know what you're doing.
+
+llvm is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have llvm first in your PATH, run:
+  fish_add_path /opt/homebrew/opt/llvm/bin
+
+For compilers to find llvm you may need to set:
+  set -gx LDFLAGS "-L/opt/homebrew/opt/llvm/lib"
+  set -gx CPPFLAGS "-I/opt/homebrew/opt/llvm/include"
+==> gh
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
+==> cmake
+To install the CMake documentation, run:
+  brew install cmake-docs
+
+Emacs Lisp files have been installed to:
+  /opt/homebrew/share/emacs/site-lisp/cmake
+==> pnpm
+pnpm requires a Node installation to function. You can install one with:
+  brew install node
+
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
+==> uv
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
+==> tabby
+Please note tabby expects to read its configuration file from
+/Users/gy-gyoung/.tabby/config.toml
+
+For more information see https://tabby.tabbyml.com/docs/administration/model/
+
+For a list of the available models see https://tabby.tabbyml.com/docs/models/
+
+To start tabbyml/tabby/tabby now and restart at login:
+  brew services start tabbyml/tabby/tabby
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/tabby/bin/tabby serve --device metal
+
+~ 
+```
+
 <hr />
 
 # macOS 화면보호기 실행 안되게 계속 깨어있게 하기(caffeine)
