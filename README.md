@@ -2,6 +2,12 @@
 
 - [#rust개발-관련macOS fix문제해결](#rust개발-관련)
 
+<hr />
+
+- 결제한 어플
+  - [ScreenBrush](https://apps.apple.com/kr/app/screenbrush/id1233965871?l=en-GB&mt=12)
+  - [Movist](https://apps.apple.com/kr/app/movist/id461788075?l=en-GB&mt=12)
+
 <hr>
 
 
