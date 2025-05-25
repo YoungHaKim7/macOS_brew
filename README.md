@@ -180,9 +180,10 @@ fish completions have been installed to:
   /opt/homebrew/share/fish/vendor_completions.d
 ```
 
-- 250228 업데이트 하고 체크
+- 250525 업데이트 하고 체크
 
 ```bash
+
  libpq
 libpq is keg-only, which means it was not symlinked into /opt/homebrew,
 because conflicts with postgres formula.
@@ -202,9 +203,6 @@ CLANG_CONFIG_FILE_USER_DIR:   ~/.config/clang
 
 LLD is now provided in a separate formula:
   brew install lld
-
-We plan to build LLVM 20 with `LLVM_ENABLE_EH=OFF`. Please see:
-  https://github.com/orgs/Homebrew/discussions/5654
 
 Using `clang`, `clang++`, etc., requires a CLT installation at `/Library/Developer/CommandLineTools`.
 If you don't want to install the CLT, you can write appropriate configuration files pointing to your
@@ -228,6 +226,9 @@ If you need to have llvm first in your PATH, run:
 For compilers to find llvm you may need to set:
   set -gx LDFLAGS "-L/opt/homebrew/opt/llvm/lib"
   set -gx CPPFLAGS "-I/opt/homebrew/opt/llvm/include"
+==> mas
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
 ==> gh
 fish completions have been installed to:
   /opt/homebrew/share/fish/vendor_completions.d
@@ -237,6 +238,9 @@ To install the CMake documentation, run:
 
 Emacs Lisp files have been installed to:
   /opt/homebrew/share/emacs/site-lisp/cmake
+==> starship
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
 ==> pnpm
 pnpm requires a Node installation to function. You can install one with:
   brew install node
@@ -244,6 +248,9 @@ pnpm requires a Node installation to function. You can install one with:
 fish completions have been installed to:
   /opt/homebrew/share/fish/vendor_completions.d
 ==> uv
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
+==> pip-tools
 fish completions have been installed to:
   /opt/homebrew/share/fish/vendor_completions.d
 ==> tabby
@@ -258,8 +265,9 @@ To start tabbyml/tabby/tabby now and restart at login:
   brew services start tabbyml/tabby/tabby
 Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/tabby/bin/tabby serve --device metal
+==> Updating Homebrew...
+Already up-to-date.
 
-~ 
 ```
 
 <hr />
