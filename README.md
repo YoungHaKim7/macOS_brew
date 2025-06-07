@@ -284,3 +284,10 @@ brew install --cask caffeine
 ```
  softwareupdate --install-rosetta --agree-to-license
 ```
+
+```
+# arm에서 x86실행하는 방법 먼저 로제타 설치해야함
+$ arch -x86_64 zsh
+
+$ softwareupdate --install-rosetta --agree-to-license
+```
