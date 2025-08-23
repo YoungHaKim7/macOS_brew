@@ -215,6 +215,50 @@ For compilers to find llvm you may need to set:
 ==> pnpm
 ```
 
+- 250823 업데이트 하고 체크
+
+```bash
+Removing: /Users/gy-gyoung/Library/Caches/Homebrew/ruff_bottle_manifest--0.12.7... (8.3KB)
+Removing: /Users/gy-gyoung/Library/Caches/Homebrew/ruff--0.12.7... (12.9MB)
+==> No outdated dependents to upgrade!
+==> Caveats
+fish completions have been installed to:
+  /opt/homebrew/share/fish/vendor_completions.d
+Emacs Lisp files have been installed to:
+  /opt/homebrew/share/emacs/site-lisp/cmake
+==> libpq
+libpq is keg-only, which means it was not symlinked into /opt/homebrew,
+because it conflicts with PostgreSQL.
+
+If you need to have libpq first in your PATH, run:
+  fish_add_path /opt/homebrew/opt/libpq/bin
+
+For compilers to find libpq you may need to set:
+  set -gx LDFLAGS "-L/opt/homebrew/opt/libpq/lib"
+  set -gx CPPFLAGS "-I/opt/homebrew/opt/libpq/include"
+
+For pkg-config to find libpq you may need to set:
+  set -gx PKG_CONFIG_PATH "/opt/homebrew/opt/libpq/lib/pkgconfig"
+==> cmake
+To install the CMake documentation, run:
+  brew install cmake-docs
+==> pnpm
+pnpm requires a Node installation to function. You can install one with:
+  brew install node
+==> tabby
+Please note tabby expects to read its configuration file from
+/Users/gy-gyoung/.tabby/config.toml
+
+For more information see https://tabby.tabbyml.com/docs/administration/model/
+
+For a list of the available models see https://tabby.tabbyml.com/docs/models/
+
+To start tabbyml/tabby/tabby now and restart at login:
+  brew services start tabbyml/tabby/tabby
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/tabby/bin/tabby serve --device metal
+```
+
 - 250525 업데이트 하고 체크
 
 ```bash
