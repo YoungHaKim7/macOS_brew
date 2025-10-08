@@ -75,6 +75,16 @@ rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
 Another easy way to install all of this, along with some good basic security hardening practices, is to use Mike McQuaid's Strap tool by going to https://macos-strap.herokuapp.com/. If you have a github account, it will also install basic github permissions.
 Basic Brew Bundle
 
+# homebrew에 설치 되어 있다 확인 
+
+```
+$ find /opt/homebrew -name "*asio*" -type d 2>/dev/null | head -10
+  ⎿  /opt/homebrew/Cellar/boost/1.89.0/include/boost/asio
+     /opt/homebrew/Cellar/asio
+     /opt/homebrew/Cellar/asio/1.36.0/include/asio
+     /opt/homebrew/Cellar/asio/1.36.0/share/asio
+```
+
 # 에러나는거 따로 alacritty
 
 ```
