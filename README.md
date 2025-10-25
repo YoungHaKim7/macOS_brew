@@ -59,6 +59,7 @@ brew install --cask alacritty --no-quarantine
 # Installing Brew
 
 Compete details are at Brew but fairly simple to install. Open terminal.app (command-space + "terminal") and paste this command on the command line.
+- https://brew.sh/
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
