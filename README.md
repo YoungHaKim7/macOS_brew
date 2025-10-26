@@ -387,3 +387,9 @@ $ arch -x86_64 zsh
 
 $ softwareupdate --install-rosetta --agree-to-license
 ```
+
+# objcopy
+
+```
+brew install binutils
+```
