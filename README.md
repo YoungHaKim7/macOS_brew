@@ -469,3 +469,17 @@ $ softwareupdate --install-rosetta --agree-to-license
 ```
 brew install binutils
 ```
+
+# 업데이트 후 Spotlight 앱 검색 안됨
+
+- https://www.reddit.com/r/MacOS/comments/1gjhiha/spotlight_not_looking_for_apps/?tl=ko
+
+```bash
+# 다음 명령어를 실행하세요:
+
+sudo mdutil -E /
+sudo mdutil -i on /
+sudo mdutil -i on /System/Volumes/Data
+sudo mdutil -E /System/Volumes/Data
+
+```
