@@ -1,6 +1,7 @@
 # link
 
 - [#rust개발-관련macOS fix문제해결](#rust개발-관련)
+- [업데이트 후 Spotlight 앱 검색 안됨](#업데이트-후-spotlight-앱-검색-안됨)
 
 <hr />
 
@@ -464,13 +465,13 @@ $ arch -x86_64 zsh
 $ softwareupdate --install-rosetta --agree-to-license
 ```
 
-# objcopy
+# objcopy[|🔝|](#link)
 
 ```
 brew install binutils
 ```
 
-# 업데이트 후 Spotlight 앱 검색 안됨
+# 업데이트 후 Spotlight 앱 검색 안됨[|🔝|](#link)
 
 - https://www.reddit.com/r/MacOS/comments/1gjhiha/spotlight_not_looking_for_apps/?tl=ko
 
