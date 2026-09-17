@@ -30,6 +30,17 @@ No analytics data has been sent yet (nor will any be during this install run).
     https://docs.brew.sh
 ```
 
+```bash
+Tapping homebrew/bundle
+Error: homebrew/bundle was deprecated. This tap is now empty and all its contents were either deleted or migrated.
+Tapping homebrew/bundle has failed!
+Tapping buo/cask-upgrade
+Tapping homebrew/cask-fonts
+Error: homebrew/cask-fonts was deprecated. This tap is now empty and all its contents were either deleted or migrated.
+Tapping homebrew/cask-fonts has failed!
+
+```
+
 # brew update & upgrade
 
 ```bash
