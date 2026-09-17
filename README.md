@@ -43,6 +43,43 @@ Tapping homebrew/cask-fonts has failed!
 
 ```
 
+- error
+
+```bash
+brew install --cask ghostty
+==> Downloading Homebrew API data
+✔︎ JSON API packages.arm64_golden_gate.jws.json                                                 Downloaded   15.5MB/ 15.5MB
+==> Would install 1 cask:
+ghostty
+Warning: The following taps are not trusted:
+  blocklogic-au/phalconphp
+  buo/cask-upgrade
+
+Homebrew is currently ignoring formulae, casks and commands
+from these taps because tap trust is required.
+Untap them with:
+  brew untap blocklogic-au/phalconphp buo/cask-upgrade
+Trust specific formulae, casks and commands with:
+  brew trust --formula <user>/<tap>/<formula>
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust blocklogic-au/phalconphp buo/cask-upgrade
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Fetching downloads for: ghostty
+✔︎ Cask ghostty (1.3.1)                                                                         Downloaded   33.8MB/ 33.8MB
+==> Installing Cask ghostty
+==> Moving App 'Ghostty.app' to '/Applications/Ghostty.app'
+==> Linking Manpage 'ghostty.1' to '/opt/homebrew/share/man/man1/ghostty.1'
+==> Linking Manpage 'ghostty.5' to '/opt/homebrew/share/man/man5/ghostty.5'
+==> Linking Bash Completion 'ghostty.bash' to '/opt/homebrew/etc/bash_completion.d/ghostty'
+==> Linking Fish Completion 'ghostty.fish' to '/opt/homebrew/share/fish/vendor_completions.d/ghostty.fish'
+==> Linking Zsh Completion '_ghostty' to '/opt/homebrew/share/zsh/site-functions/_ghostty'
+🍺  ghostty was successfully installed!
+```
+
 # brew update & upgrade
 
 ```bash
