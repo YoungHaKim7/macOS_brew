@@ -8,6 +8,8 @@
 - 결제한 어플
   - [ScreenBrush](https://apps.apple.com/kr/app/screenbrush/id1233965871?l=en-GB&mt=12)
   - [Movist](https://apps.apple.com/kr/app/movist/id461788075?l=en-GB&mt=12)
+  - Pixlemator Pro
+  - FinalCulPro
 
 <hr>
 
