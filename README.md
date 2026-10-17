@@ -11,6 +11,7 @@
   - Pixlemator Pro
   - FinalCulPro
   - EdgeView(jpg같은거 zip상태로 보기 좋다.)
+  - Jump Destop(원격 굿)
 
 <hr>
 
