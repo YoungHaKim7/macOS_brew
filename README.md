@@ -10,6 +10,7 @@
   - [Movist](https://apps.apple.com/kr/app/movist/id461788075?l=en-GB&mt=12)
   - Pixlemator Pro
   - FinalCulPro
+  - EdgeView(jpg같은거 zip상태로 보기 좋다.)
 
 <hr>
 
